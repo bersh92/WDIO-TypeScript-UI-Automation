@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./*" ],
+      "src/*": ["./src/*"]
+    },
+    "typeRoots": [
+      "./wdio/types"
+    ],
+
+    "types": [
+      "node",
+      "webdriverio/sync",
+      "@wdio/mocha-framework",
+      "./wdio/types/wdio"
+    ]
+  },
+  "include": [
+    "./wdio/**/*.ts"
+  ]
+}

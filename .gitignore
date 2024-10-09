@@ -1,0 +1,9 @@
+allure/**
+# Ignore node modules
+node_modules/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore package-lock.json
+package-lock.json
